@@ -6,22 +6,22 @@ namespace ProductReviewManage
 {
     class ProductReview
     {
-        public int productId
+        public int ProductId
         {
             get;
             set;
         }
-        public int userId
+        public int UserId
         {
             get;
             set;
         }
-        public double rating
+        public double Rating
         {
             get;
             set;
         }
-        public string review
+        public string Review
         {
             get;
             set;
