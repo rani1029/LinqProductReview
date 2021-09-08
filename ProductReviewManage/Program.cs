@@ -34,7 +34,8 @@ namespace ProductReviewManage
             //        + " " + "Rating:- " + list.Rating + " " + "Review:- " + list.Review + " " + "isLike :- " + list.isLike);
             //}
             management management = new management();
-            management.TopRecords(productReviewList);
+            //management.TopRecords(productReviewList);
+            management.SelectedRecords(productReviewList);
         }
 
     }
