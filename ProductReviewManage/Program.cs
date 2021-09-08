@@ -15,7 +15,7 @@ namespace ProductReviewManage
                 new ProductReview() { ProductId = 2, UserId = 1, Rating = 4, Review = "Good", isLike = true },
                 new ProductReview() { ProductId = 3, UserId = 2, Rating = 5, Review = "Good", isLike = true },
                 new ProductReview() { ProductId = 4, UserId = 2, Rating = 4, Review = "Good", isLike = true },
-                new ProductReview() { ProductId = 5, UserId = 3, Rating = 2, Review = "Nice", isLike = false },
+                new ProductReview() { ProductId = 4, UserId = 3, Rating = 2, Review = "Nice", isLike = false },
                 new ProductReview() { ProductId = 6, UserId = 4, Rating = 1, Review = "Bad", isLike = false },
                 new ProductReview() { ProductId = 7, UserId = 3, Rating = 1, Review = "Nice", isLike = false },
                 new ProductReview() { ProductId = 8, UserId = 10, Rating = 9, Review = "Nice", isLike = true },
@@ -36,6 +36,7 @@ namespace ProductReviewManage
             management management = new management();
             //management.TopRecords(productReviewList);
             management.SelectedRecords(productReviewList);
+            management.RetrieveCountOfRecords(productReviewList);
         }
 
     }
